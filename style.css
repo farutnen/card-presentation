@@ -65,18 +65,71 @@ border-top-right-radius: 8px;
 }
 
 .perfil .header .elementos i{
-    transition: .3s erase-in-out;
+    transition: .3s linear;
 }
 
+
 .perfil .header .elementos .fa-facebook:hover{
-    color: #74b9f7;
+    color: #00bbff;
+    font-size: 26px;
+
 }
 .perfil .header .elementos .fa-instagram:hover{
     color: #74b9f7;
+    font-size: 26px;
 }
 .perfil .header .elementos .fa-linkedin:hover{
     color: #74b9f7;
+    font-size: 26px;
 }
 .perfil .header .elementos .fa-behance:hover{
     color: #74b9f7;
+    font-size: 26px;
+}
+
+.contactame{
+    padding: 12px 50px;
+    color: #e66767;
+    border: 2px solid #e66767;
+    border-radius: 6px;
+    transition: .3s linear;
+}
+
+.contactame:hover{
+    background-color: #e66767;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 17px;
+}
+
+.footer{
+    background: #f4f4f4;
+    padding: 60px 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.footer .elementos{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.footer .elementos .item{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #e66767;
+}
+
+.footer .elementos .item span{
+    display: block;
+    color: #2c3a47;
+    font-size: 30px;
+}
+
+.footer .elementos .border{
+    width: 1px;
+    height: 50px;
+    background: #bbb;
 }
